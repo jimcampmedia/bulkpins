@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.install]
+cmds = ["pip install poetry && poetry config virtualenvs.create false && poetry install --no-interaction --no-ansi --no-root"]
+
+[start]
+cmd = "mkdir -p /data/storage && uvicorn app.main:app --host 0.0.0.0 --port 8080"
