@@ -66,6 +66,8 @@ def get_optimal_schedule_time(user_id: str) -> str:
 
     if existing:
         last_scheduled = datetime.fromisoformat(existing["scheduled_at"])
+        if last_scheduled.tzinfo is None:
+            last_scheduled = last_scheduled.replace(tzinfo=timezone.utc)
         # Schedule 4 hours after last scheduled post
         next_time = last_scheduled + timedelta(hours=4)
         if next_time < now:

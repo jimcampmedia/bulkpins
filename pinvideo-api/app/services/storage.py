@@ -44,9 +44,11 @@ def upload_file(file_content: bytes, filename: str, content_type: str, folder: s
 def delete_file(url: str):
     """Delete a file from R2."""
     if not R2_ACCESS_KEY_ID:
-        # Demo mode
-        if url.startswith("/storage/"):
-            local_path = f"/data{url}"
+        # Demo mode - handle both /storage/ and full BACKEND_URL prefixed paths
+        storage_prefix = "/storage/"
+        idx = url.find(storage_prefix)
+        if idx != -1:
+            local_path = f"/data{url[idx:]}"
             if os.path.exists(local_path):
                 os.remove(local_path)
         return
