@@ -309,7 +309,10 @@ export default function Landing() {
                 PinVideo
               </span>
             </div>
-            <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} PinVideo. All rights reserved.</p>
+            <div className="flex items-center gap-4">
+              <Link to="/privacy" className="text-sm text-slate-500 hover:text-slate-700 underline">Privacy Policy</Link>
+              <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} PinVideo. All rights reserved.</p>
+            </div>
           </div>
         </div>
       </footer>

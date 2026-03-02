@@ -7,6 +7,7 @@ import Dashboard from "@/pages/Dashboard";
 import CreateVideo from "@/pages/CreateVideo";
 import Schedule from "@/pages/Schedule";
 import Settings from "@/pages/Settings";
+import Privacy from "@/pages/Privacy";
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth();
@@ -46,6 +47,7 @@ function App() {
           <Route path="/dashboard/create" element={<ProtectedRoute><CreateVideo /></ProtectedRoute>} />
           <Route path="/dashboard/schedule" element={<ProtectedRoute><Schedule /></ProtectedRoute>} />
           <Route path="/dashboard/settings" element={<ProtectedRoute><Settings /></ProtectedRoute>} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </AuthProvider>
