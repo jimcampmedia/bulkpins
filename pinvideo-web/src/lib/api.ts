@@ -23,7 +23,7 @@ async function request(path: string, options: RequestInit = {}): Promise<Respons
     headers,
   });
 
-  if (res.status === 401) {
+  if (res.status === 401 && !path.startsWith("/api/auth/")) {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
     window.location.href = "/login";
