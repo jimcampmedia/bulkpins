@@ -16,7 +16,7 @@ XAI_BASE_URL = "https://api.x.ai/v1"
 R2_ACCOUNT_ID = os.getenv("R2_ACCOUNT_ID", "")
 R2_ACCESS_KEY_ID = os.getenv("R2_ACCESS_KEY_ID", "")
 R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
-R2_BUCKET_NAME = os.getenv("R2_BUCKET_NAME", "pinvideo")
+R2_BUCKET_NAME = os.getenv("R2_BUCKET_NAME", "bulkpins")
 R2_PUBLIC_URL = os.getenv("R2_PUBLIC_URL", "")
 
 # Stripe

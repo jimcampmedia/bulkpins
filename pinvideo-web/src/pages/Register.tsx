@@ -42,7 +42,7 @@ export default function Register() {
               <Video className="w-6 h-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-              PinVideo
+              BulkPins
             </span>
           </Link>
         </div>

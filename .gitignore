@@ -21,7 +21,3 @@ build/
 
 # Python
 *.egg-info/
-poetry.lock
-
-# Node
-package-lock.json
