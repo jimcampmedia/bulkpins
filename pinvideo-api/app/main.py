@@ -10,7 +10,7 @@ from app.routes.pinterest_routes import router as pinterest_router
 from app.routes.schedule_routes import router as schedule_router
 from app.routes.billing_routes import router as billing_router
 
-app = FastAPI(title="PinVideo API", version="1.0.0")
+app = FastAPI(title="BulkPins API", version="1.0.0")
 
 # Disable CORS. Do not remove this for full-stack development.
 app.add_middleware(

@@ -48,7 +48,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                 <Video className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-                PinVideo
+                BulkPins
               </span>
             </Link>
           </div>
@@ -135,7 +135,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <Video className="w-4 h-4 text-white" />
             </div>
             <span className="font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-              PinVideo
+              BulkPins
             </span>
           </Link>
           <div className="flex items-center gap-2">

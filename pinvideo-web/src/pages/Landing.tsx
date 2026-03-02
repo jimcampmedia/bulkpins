@@ -58,7 +58,7 @@ export default function Landing() {
                 <Video className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-                PinVideo
+                BulkPins
               </span>
             </div>
             <div className="hidden md:flex items-center gap-8">
@@ -306,12 +306,12 @@ export default function Landing() {
                 <Video className="w-4 h-4 text-white" />
               </div>
               <span className="font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-                PinVideo
+                BulkPins
               </span>
             </div>
             <div className="flex items-center gap-4">
               <Link to="/privacy" className="text-sm text-slate-500 hover:text-slate-700 underline">Privacy Policy</Link>
-              <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} PinVideo. All rights reserved.</p>
+              <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} BulkPins. All rights reserved.</p>
             </div>
           </div>
         </div>

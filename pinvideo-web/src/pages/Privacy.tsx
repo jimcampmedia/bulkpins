@@ -13,7 +13,7 @@ export default function Privacy() {
               <Video className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-              PinVideo
+              BulkPins
             </span>
           </Link>
           <Link to="/">
@@ -34,7 +34,7 @@ export default function Privacy() {
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-3">1. Introduction</h2>
             <p className="text-slate-600 leading-relaxed">
-              PinVideo ("we," "our," or "us") operates the PinVideo web application (the "Service").
+              BulkPins ("we," "our," or "us") operates the BulkPins web application (the "Service").
               This Privacy Policy explains how we collect, use, disclose, and safeguard your information
               when you use our Service. We are committed to protecting your privacy and handling your
               data in an open and transparent manner. Please read this Privacy Policy carefully. By
@@ -126,7 +126,7 @@ export default function Privacy() {
               </a>.
             </p>
             <p className="text-slate-600 leading-relaxed mb-4">
-              When you connect your Pinterest account to PinVideo:
+              When you connect your Pinterest account to BulkPins:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-slate-600 mb-4">
               <li>We request only the permissions necessary to list your boards and create pins on your behalf.</li>
@@ -240,7 +240,7 @@ export default function Privacy() {
               contact us at:
             </p>
             <p className="text-slate-600 mt-2">
-              <strong>Email:</strong> privacy@pinvideo.app
+              <strong>Email:</strong> privacy@bulkpins.app
             </p>
           </section>
         </div>
@@ -255,10 +255,10 @@ export default function Privacy() {
                 <Video className="w-4 h-4 text-white" />
               </div>
               <span className="font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-                PinVideo
+                BulkPins
               </span>
             </div>
-            <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} PinVideo. All rights reserved.</p>
+            <p className="text-sm text-slate-500">&copy; {new Date().getFullYear()} BulkPins. All rights reserved.</p>
           </div>
         </div>
       </footer>
